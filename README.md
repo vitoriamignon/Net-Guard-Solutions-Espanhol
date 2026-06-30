@@ -1,71 +1,66 @@
 # Net-Guard-Solutions-Espanhol
----
 
-### 2️⃣ Para o arquivo `README.es.md` (Espanhol)
-
-```markdown
 # NetGuard Pro — Enterprise Network Security & Optimization
 
 │ [Português](README.md) │ [Español] │
 
-![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![Version](https://img.shields.io/badge/version-v1.0.0--release-blue)
 ![Uptime](https://img.shields.io/badge/uptime-99.99%25-success)
-![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows%20Server-lightgrey)
+![Deployment](https://img.shields.io/badge/deployment-Cloud%20Ready-brightgreen)
 
 **NetGuard Pro** es la plataforma corporativa de próxima generación para el monitoreo, optimización y seguridad de infraestructura de red robusta. Desarrollado por **NetGuard Solutions**, pionera global en soluciones cibernéticas avanzadas, el software fue diseñado para mitigar riesgos, optimizar flujos de tráfico de datos y garantizar la resiliencia operativa de redes complejas en tiempo real.
 
 ---
 
-## 🎯 Descripción General del Producto
+## 🎯 ¿Qué hace el producto?
 
-NetGuard Pro actúa como la columna vertebral de los sistemas de gobernanza de red para empresas que exigen alta disponibilidad. A través de algoritmos avanzados de balanceo de carga y detección automatizada de amenazas, el sistema traduce métricas crudas de telemetría en inteligencia accionable, permitiendo a los administradores anticipar cuellos de botella y neutralizar vulnerabilidades antes de que afecten la cadena de valor del negocio.
+NetGuard Pro actúa como el centro de control de red para empresas que no pueden permitirse caídas del sistema. Traduce métricas complejas de la red en información visual fácil de entender, permitiendo a los administradores anticipar cuellos de botella y bloquear amenazas informáticas antes de que afecten la operación del negocio.
 
-### Objetivos Estratégicos
-* 🚀 **Maximización del Uptime:** Garantía de continuidad del negocio mediante mecanismos de failover automatizados.
-* 📊 **Visibilidad de Extremo a Extremo:** Telemetría unificada de CPU, memoria, disco, latencia y paquetes en un panel centralizado.
-* 🛡️ **Protección Perimetral Personalizable:** Firewall robusto de última generación (NGFW) adaptable a las políticas de cumplimiento regulatorio.
-
----
-
-## 🛠️ Principales Recursos y Funcionalidades
-
-### 1. Optimización de Red y Balanceo de Carga
-* **Distribución Dinámica de Tráfico:** Algoritmos inteligentes que distribuyen las solicitudes entre servidores, reduciendo la sobrecarga sistémica.
-* **Control de Pérdida de Paquetes:** Estabilización activa de conexiones, manteniendo la pérdida de paquetes en niveles mínimos (promedio histórico de **0,58%**), ideal para entornos de alta densidad y comunicación unificada (videollamadas y VoIP).
-
-### 2. Monitoreo y Alertas en Tiempo Real
-* **Panel Consolidado de Métricas:** Visualización instantánea de métricas críticas (Uso promedio de CPU de ~66,8% y Memoria de ~60,5% bajo condiciones operativas estándar).
-* **Gestión Avanzada de Disco:** Sistema predictivo de monitoreo de almacenamiento con alertas automáticas para la prevención de cuellos de botella en aplicaciones de datos intensivos.
-* **Conteo y Duración de Sesiones:** Rastreo preciso y en tiempo real de la actividad del usuario para la planeación y dimensionamiento de infraestructura (*capacity planning*).
-
-### 3. Resiliencia y Tolerancia a Fallos
-* **Failover Automatizado de Alta Disponibilidad:** Transición inmediata y transparente hacia servidores de redundancia en caso de caídas de servicios críticos, minimizando el impacto operativo.
-
-### 4. Integración y Seguridad Perimetral
-* **Firewall de Próxima Gen Altamente Personalizable:** Control granular sobre reglas de tráfico, políticas de filtrado de paquetes e aislamiento de redes. Incluye un **Asistente de Configuración (Wizard)** guiado para simplificar la creación de reglas complejas.
-* **API de Integración Robusta:** Conectividad plug-and-play con sistemas internos y herramientas analíticas de terceros.
+### Objetivos Clave
+* 🚀 **Máxima Disponibilidad:** Garantiza que la red siga funcionando mediante un sistema de respaldo automático (Failover).
+* 📊 **Monitoreo Completo:** Supervisa el uso de memoria, procesador, disco y velocidad en un panel centralizado.
+* 🛡️ **Seguridad Avanzada:** Firewall de última generación para proteger los datos de la empresa.
 
 ---
 
-## 🏗️ Requisitos del Sistema y Arquitectura
+## 🛠️ Principales Características
 
-| Componente | Requisito Mínimo | Recomendado Corporativo |
-| :--- | :--- | :--- |
-| **Sistema Operativo** | Linux (Ubuntu Server 20.04 LTS / RHEL 8+) | Linux RHEL 9+ o Windows Server 2022 |
-| **Procesador (CPU)** | 4 Cores | 8 Cores o superior |
-| **Memoria (RAM)** | 8 GB | 16 GB o superior (Optimizado para análisis concurrente) |
-| **Almacenamiento** | 50 GB SSD Libre | 200 GB NVMe SSD (Para logs extensos de auditoría) |
-| **Red** | Interfaz de 1 Gbps | Interfaz de 10 Gbps redundante |
+### 1. Optimización y Control de Tráfico
+* **Balanceo de Carga:** Distribuye de forma inteligente las solicitudes de los usuarios entre los servidores para evitar sobrecargas.
+* **Estabilización de Conexión:** Mantiene la pérdida de datos (paquetes) en niveles mínimos (**0,58%** promedio), garantizando videollamadas fluidas y transferencias estables.
+
+### 2. Panel de Control y Alertas en Tiempo Real
+* **Métricas Claras:** Vista instantánea de la salud del sistema (Uso promedio normal de CPU en ~66,8% y Memoria en ~60,5%).
+* **Prevención de Almacenamiento:** Sistema que avisa automáticamente antes de que el espacio en disco se agote.
+* **Actividad de Usuarios:** Rastreo preciso de cuántas sesiones están activas para planificar mejoras de infraestructura.
+
+### 3. Firewall Personalizable
+* **Protección a Medida:** Permite crear reglas personalizadas para permitir o bloquear accesos a la red de la empresa mediante un **Asistente Visual Inteligente**.
 
 ---
 
-## 🚀 Instalación e Inicio Rápido (Quick Start)
+## 🚀 Cómo Usar (Guía de Inicio Rápido)
 
-### Paso 1: Instalación de dependencias y descarga
-```bash
-# Actualice los repositorios locales
-sudo apt update && sudo apt upgrade -y
+Al ser una solución lista para la nube o preinstalada, no requiere comandos de consola:
 
-# Descargue el paquete oficial de NetGuard Pro
-wget [https://get.netguardsolutions.com/releases/netguardpro-latest.tar.gz](https://get.netguardsolutions.com/releases/netguardpro-latest.tar.gz)
+### Paso 1: Acceso al Panel Web
+Abra su navegador web e ingrese a la dirección de acceso provista por su administrador (ejemplo: `https://netguard.tuempresa.com` o `https://localhost:8443`).
+
+### Paso 2: Configuración Inicial del Firewall
+1. Inicie sesión con sus credenciales de administrador.
+2. Vaya al menú **Seguridad > Firewall**.
+3. Inicie el **Asistente de Firewall (Wizard)**. Este sistema guiado le ayudará a activar las reglas básicas de protección contra accesos no autorizados en pocos clics, sin necesidad de configuraciones técnicas complejas.
+
+### Paso 3: Ajuste de Alertas
+Para evitar recibir demasiados correos electrónicos por variaciones normales de la red:
+1. Vaya a **Configuración > Umbrales de Alerta**.
+2. Defina que las alertas de nivel **Bajo** se queden solo en el historial y que solo las de nivel **Alto** (como la caída de un servidor) envíen notificaciones urgentes a su correo o celular.
+
+---
+
+## 📞 Soporte Técnico
+
+* **Centro de Ayuda:** Soporte directo y documentación extendida a través del portal de clientes de NetGuard Solutions.
+* **Correo de Soporte:** `soporte@netguardsolutions.com`
+
+Desarrollado con 🔒 por **NetGuard Solutions** — *Empowering Networks, Securing Futures.*

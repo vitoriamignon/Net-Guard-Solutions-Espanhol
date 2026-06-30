@@ -2,7 +2,7 @@
 
 # NetGuard Pro — Enterprise Network Security & Optimization
 
-│ [Português](README.md) │ [Español] │
+ │ [Español] │
 
 ![Version](https://img.shields.io/badge/version-v1.0.0--release-blue)
 ![Uptime](https://img.shields.io/badge/uptime-99.99%25-success)
